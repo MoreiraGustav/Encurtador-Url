@@ -27,8 +27,8 @@ export default function RetornoShortLink({
         </div>
         <Box title="Link Encurtado">
           <div className="flex-col w-full items-center justify-center px-12 sm:px-20">
-            <p className="text-center">Seu link encurtado:</p>
-            <div className="bg-white w-full flex gap-4 justify-center mt-2 h-12 items-center rounded-md">
+            <p className="text-center text-slate-100 text-lg">Seu link encurtado:</p>
+            <div className="bg-slate-200 w-full flex gap-4 justify-center mt-2 h-12 items-center rounded-md">
               <p className=" text-xl font-medium">{linkEncurtado}</p>
               <button onClick={handleCopiar} className="">
                 {copiar ? (

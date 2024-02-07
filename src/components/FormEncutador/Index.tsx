@@ -21,7 +21,7 @@ export default function FormEncurtador({ onSubmit }: FormEncurtadorProps) {
         onSubmit={handleSubmit}
       >
         <input
-          className="rounded-md h-12 w-full px-2"
+          className="rounded-md h-12 w-full px-2 bg-slate-200"
           value={link}
           onChange={(event) => setLink(event.target.value)}
           
@@ -29,7 +29,7 @@ export default function FormEncurtador({ onSubmit }: FormEncurtadorProps) {
         <div className="flex justify-center">
           <button
             type="submit"
-            className="w-20 rounded mt-10 h-12  bg-cyan-200"
+            className="w-28 px-2 rounded mt-10 h-12 bg-slate-500 text-slate-200"
           >
             Encurtar
           </button>
