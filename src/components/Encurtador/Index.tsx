@@ -18,7 +18,7 @@ export default function Encurtador() {
 
   return (
     <div className="w-full mt-28 px-5 flex-col justify-center  items-center">
-      <Box title={"Encurta Link"}  colortext={"white"}>
+      <Box title={"Encurta Link"} >
         <FormEncurtador onSubmit={handleSubmit} />
       </Box>
       {Retorno && <RetornoShortLink linkEncurtado={Retorno} />}
